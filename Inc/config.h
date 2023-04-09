@@ -334,17 +334,17 @@
 
   #define MAX_SPEED_FORWARDS_M2 280
   #define ACC_FORWARDS_M2 0.8
-  #define MAX_SPEED_BACKWARDS_M2 190
+  #define MAX_SPEED_BACKWARDS_M2 90
   #define ACC_BACKWARDS_M2 0.8
 
   #define MAX_SPEED_FORWARDS_M3 540
   #define ACC_FORWARDS_M3 0.8
-  #define MAX_SPEED_BACKWARDS_M3 240
+  #define MAX_SPEED_BACKWARDS_M3 90
   #define ACC_BACKWARDS_M3 0.8
 
   #define MAX_SPEED_FORWARDS_M4 1000  // do not change this in mode 4 unless you know what you are doing! (field weakening starts above 1000. there must not be a gap between max command and fw start.)
   #define ACC_FORWARDS_M4 0.8
-  #define MAX_SPEED_BACKWARDS_M4 300
+  #define MAX_SPEED_BACKWARDS_M4 200
   #define ACC_BACKWARDS_M4 0.8
 
   #define DEBUG_SERIAL_USART3       // right sensor cable debug
